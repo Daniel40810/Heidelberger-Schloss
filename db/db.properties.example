@@ -1,0 +1,7 @@
+# Zugang zur Oracle-Datenbank (Schema DEMO, Dienst PDBORCL).
+# Diese Datei nach db.properties kopieren; db.properties steht in .gitignore und kommt nie ins Git.
+url=jdbc:oracle:thin:@//localhost:1521/PDBORCL
+user=DEMO
+# Das Passwort hier leer lassen. Dann fragt das Startbild danach (es bleibt nur im Speicher)
+# oder es kommt aus der Umgebungsvariablen HEIDELBERG_DB_PASSWORD.
+password=

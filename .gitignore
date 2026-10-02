@@ -1,0 +1,18 @@
+# NetBeans / Ant
+build/
+dist/
+nbproject/private/
+
+# Zugangsdaten und Protokolle der Datenbank (ab Phase 10)
+db/db.properties
+db/bestand.txt
+db/einrichtung.txt
+
+# eigene Standbilder
+standbilder/
+
+# Arbeitsdateien
+Statusleiste_*.png
+
+# Ablage zum Löschen
+_to_delete/
